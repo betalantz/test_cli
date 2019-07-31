@@ -7,7 +7,7 @@ class Movie
       @@all
     end
   
-    def initialize(title: title, url: url)
+    def initialize(title:, url:)
       @title = title
       @url = url
       @length, @rating = nil, nil

@@ -1,3 +1,5 @@
+require 'open-URI'
+require 'nokogiri'
 require_relative "./test/cli/version"
 
 module Test
@@ -8,3 +10,5 @@ module Test
 end
 
 require_relative "./cli"
+require_relative "./scraper"
+require_relative "./movie"
